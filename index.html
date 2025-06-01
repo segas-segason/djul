@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DJU.L — Сеть магазинов женской одежды</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="/video/djul.mp4" type="video/mp4" />
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+    <header class="header">
+        <div class="telegram-modal" id="telegramModal">
+            <div class="telegram-modal__content">
+                <button class="telegram-modal__close" id="closeTelegramModal">&times;</button>
+                <h2 class="telegram-modal__title">@djul_shop</h2>
+                <div class="telegram-modal__qrcode">
+                    <img src="/images/qr/qr-code.svg" alt="QR DJUL Telegram">
+                </div>
+                <p class="telegram-modal__text">
+                    Отсканируйте QR-код <br> или <br><a href="https://t.me/djul_shop" target="_blank">перейдите в Telegram</a>
+                </p>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="logo-container">
+                <a href="#" class="logo"></a>
+            </div>
+            <div class="nav-menu">
+                <a href="#about-brand">О бренде</a>
+                <a href="#catalog">Коллекция</a>
+                <a href="#stores">Магазины</a>
+                <a href="#photo-ideas">Фотоидеи</a>
+                <a href="#telegram-promo">Контакты</a>
+            </div>
+            <div class="nav-contacts">
+                <a href="" class="telegram-link"><span
+                        class="contacts__icon contacts__icon--telegram-social"></span>Телеграм</a>
+                <a href="tel:+74957992672" class="phone-link"><span
+                        class="contacts__icon contacts__icon--phone-enabled"></span>+7 (495) 799-26-72</a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="header-content">
+                <div class="heading-group">
+                    <h1 class="title">
+                        DJU.L — сеть магазинов женской одежды в Москве
+                    </h1>
+                    <p class="subtitle">
+                        Эксклюзивные коллекции, огромный выбор одежды и аксессуаров
+                    </p>
+                </div>
+                <a href="#stores">
+                    <button class="cta-button">
+                        <span>Смотреть магазины</span>
+                        <span class="cta-button__icon cta-button__icon-arrow-outward"></span>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <section id="about-brand" class="about-brand">
+            <div class="wrapper">
+                <div class="about-brand__header">
+                    <h2 class="about-brand__title">
+                        О бренде
+                    </h2>
+                    <p class="about-brand__description">
+                        Джул — это сеть магазинов мультибрендовой женской одежды премиум
+                        качества из Италии, Турции и Кореи. Более 20 лет мы создаём моду
+                        для уверенных женщин. Семь магазинов в Москве — от флагманов в
+                        центре до компактных точек в ТЦ — встречают гостей современным
+                        дизайном, просторными примерочными и зонами для комфортного
+                        шопинга.
+                    </p>
+                </div>
+                <div class="stats">
+                    <div class="stats__item">
+                        <span class="stats__icon stats__icon--flag"></span>
+                        <span class="stats__number">Более 20 лет</span>
+                        <span class="stats__label">На российском рынке</span>
+                    </div>
+                    <div class="stats__item">
+                        <span class="stats__icon stats__icon--location"></span>
+                        <span class="stats__number">7 точек</span>
+                        <span class="stats__label">По всей Москве</span>
+                    </div>
+                    <div class="stats__item">
+                        <span class="stats__icon stats__icon--users"></span>
+                        <span class="stats__number">Свыше 1000</span>
+                        <span class="stats__label">Довольных покупателей ежемесячно</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="catalog" class="catalog">
+            <div class="wrapper">
+                <div class="catalog__header">
+                    <h2 class="catalog__title">
+                        Подберите идеальное сочетание в весенне — летней коллекции
+                    </h2>
+                </div>
+                <div class="catalog__grid">
+                    <div class="catalog-item">
+                        <h3 class="catalog-item__header">Брюки</h3>
+                    </div>
+                    <div class="catalog-item">
+                        <h3 class="catalog-item__header">Джинсы</h3>
+                    </div>
+                    <div class="catalog-item">
+                        <h3 class="catalog-item__header">Платья</h3>
+                    </div>
+                    <div class="catalog-item">
+                        <h3 class="catalog-item__header">Юбки</h3>
+                    </div>
+                    <div class="catalog-item">
+                        <h3 class="catalog-item__header">Куртки</h3>
+                    </div>
+                    <div class="catalog-item">
+                        <h3 class="catalog-item__header">Джинсовки</h3>
+                    </div>
+                    <div class="catalog-item">
+                        <h3 class="catalog-item__header">Сумки</h3>
+                    </div>
+                    <div class="catalog-item">
+                        <h3 class="catalog-item__header">Бижутерия</h3>
+                    </div>
+                    <div class="catalog-item">
+                        <h3 class="catalog-item__header">Свитшоты</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="stores" class="stores">
+            <div class="wrapper">
+                <div class="stores__header">
+                    <h2 class="stores__title">
+                        Точки <span class="changing-word"></span> магазинов в Москве
+                    </h2>
+                </div>
+                <div class="stores__filters">
+                    <button class="filter-button filter-button--active" data-filter="all">
+                        Все
+                    </button>
+                    <button class="filter-button" data-filter="north">
+                        Север Москвы
+                    </button>
+                    <button class="filter-button" data-filter="northwest">
+                        Северо-запад Москвы
+                    </button>
+                    <button class="filter-button" data-filter="south">Юг Москвы</button>
+                    <button class="filter-button" data-filter="west">
+                        Запад Москвы
+                    </button>
+                    <button class="filter-button" data-filter="southeast">
+                        Юго-восток Москвы
+                    </button>
+                </div>
+                <div class="stores__grid">
+                    <article class="store-card" data-location="west">
+                        <div class="store-card__main">
+                            <h3 class="store-card__title">ТЦ Европарк</h3>
+                            <div class="store-card__address-item">
+                                <span class="store-card__mode">Ежедневно с 10:00 до 22:00</span>
+                                <div class="store-card__address-metro">
+                                    <span class="store-card__icon store-card__icon--metro"></span>
+                                    <span class="store-card__metro-text">Крылатское</span>
+                                </div>
+                                <div class="store-card__address">
+                                    <address class="store-card__address-text">
+                                        г. Москва, Рублевское шоссе, 62, 1 этаж
+                                    </address>
+                                    <button class="store-card__copy-btn" aria-label="Скопировать адрес"
+                                        data-copy-text="г. Москва, Рублевское шоссе, 62, 1 этаж">
+                                        <span class="store-card__icon store-card__icon--copy"></span>
+                                    </button>
+                                    <span class="tooltip">Скопировать адрес</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="store-card__map-block">
+                            <button class="store-card__map-btn"
+                                onclick="window.open('https://yandex.ru/maps/-/CHCtmPzd', '_blank')">
+                                <span>Проложить маршрут</span>
+                                <span class="store-card__icon store-card__btn-icon"></span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="store-card" data-location="northwest">
+                        <div class="store-card__main">
+                            <h3 class="store-card__title">ТЦ Калита</h3>
+                            <div class="store-card__address-item">
+                                <span class="store-card__mode">Ежедневно с 10:00 до 22:00</span>
+                                <div class="store-card__address-metro">
+                                    <span class="store-card__icon store-card__icon--metro"></span>
+                                    <span class="store-card__metro-text">Ясенево</span>
+                                </div>
+                                <div class="store-card__address">
+                                    <address class="store-card__address-text">
+                                        г. Москва, Новоясеневский проспект, 7, 1 этаж
+                                    </address>
+                                    <button class="store-card__copy-btn" aria-label="Скопировать адрес"
+                                        data-copy-text="г. Москва, Новоясеневский проспект, 7, 1 этаж">
+                                        <span class="store-card__icon store-card__icon--copy"></span>
+                                    </button>
+                                    <span class="tooltip">Скопировать адрес</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="store-card__map-block">
+                            <button class="store-card__map-btn"
+                                onclick="window.open('https://yandex.ru/maps/-/CHCtuQMQ', '_blank')">
+                                <span>Проложить маршрут</span>
+                                <span class="store-card__icon store-card__btn-icon"></span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="store-card" data-location="north">
+                        <div class="store-card__main">
+                            <h3 class="store-card__title">ТЦ Весна!</h3>
+                            <div class="store-card__address-item">
+                                <span class="store-card__mode">Ежедневно с 10:00 до 22:00</span>
+                                <div class="store-card__address-metro">
+                                    <span class="store-card__icon store-card__icon--metro"></span>
+                                    <span class="store-card__metro-text">Алтуфьево</span>
+                                </div>
+                                <div class="store-card__address">
+                                    <address class="store-card__address-text">
+                                        г. Москва, МКАД 84 километр, 1, 1 этаж
+                                    </address>
+                                    <button class="store-card__copy-btn" aria-label="Скопировать адрес"
+                                        data-copy-text="г. Москва, МКАД 84 километр, 1, 1 этаж">
+                                        <span class="store-card__icon store-card__icon--copy"></span>
+                                    </button>
+                                    <span class="tooltip">Скопировать адрес</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="store-card__map-block">
+                            <button class="store-card__map-btn"
+                                onclick="window.open('https://yandex.ru/maps/-/CHCtuNN0', '_blank')">
+                                <span>Проложить маршрут</span>
+                                <span class="store-card__icon store-card__btn-icon"></span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="store-card" data-location="west">
+                        <div class="store-card__main">
+                            <h3 class="store-card__title">ТЦ Кунцево Плаза</h3>
+                            <div class="store-card__address-item">
+                                <span class="store-card__mode">Ежедневно с 10:00 до 22:00</span>
+                                <div class="store-card__address-metro">
+                                    <span class="store-card__icon store-card__icon--metro"></span>
+                                    <span class="store-card__metro-text">Молодежная</span>
+                                </div>
+                                <div class="store-card__address">
+                                    <address class="store-card__address-text">
+                                        г. Москва, Рублевское шоссе, 62, 2 этаж
+                                    </address>
+                                    <button class="store-card__copy-btn" aria-label="Скопировать адрес"
+                                        data-copy-text="г. Москва, Рублевское шоссе, 62, 2 этаж">
+                                        <span class="store-card__icon store-card__icon--copy"></span>
+                                    </button>
+                                    <span class="tooltip">Скопировать адрес</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="store-card__map-block">
+                            <button class="store-card__map-btn"
+                                onclick="window.open('https://yandex.ru/maps/-/CHCtuWYT', '_blank')">
+                                <span>Проложить маршрут</span>
+                                <span class="store-card__icon store-card__btn-icon"></span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="store-card" data-location="north">
+                        <div class="store-card__main">
+                            <h3 class="store-card__title">ТЦ Галерея Аэропорт</h3>
+                            <div class="store-card__address-item">
+                                <span class="store-card__mode">Ежедневно с 10:00 до 22:00</span>
+                                <div class="store-card__address-metro">
+                                    <span class="store-card__icon store-card__icon--metro"></span>
+                                    <span class="store-card__metro-text">Аэропорт</span>
+                                </div>
+                                <div class="store-card__address">
+                                    <address class="store-card__address-text">
+                                        г. Москва, Ленинградский проспект, 62А, 2 этаж
+                                    </address>
+                                    <button class="store-card__copy-btn" aria-label="Скопировать адрес"
+                                        data-copy-text="г. Москва, Ленинградский проспект, 62А, 2 этаж">
+                                        <span class="store-card__icon store-card__icon--copy"></span>
+                                    </button>
+                                    <span class="tooltip">Скопировать адрес</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="store-card__map-block">
+                            <button class="store-card__map-btn"
+                                onclick="window.open('https://yandex.ru/maps/-/CHCtuDzn', '_blank')">
+                                <span>Проложить маршрут</span>
+                                <span class="store-card__icon store-card__btn-icon"></span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="store-card" data-location="south">
+                        <div class="store-card__main">
+                            <h3 class="store-card__title">ТЦ Варшавский</h3>
+                            <div class="store-card__address-item">
+                                <span class="store-card__mode">Ежедневно с 10:00 до 22:00</span>
+                                <div class="store-card__address-metro">
+                                    <span class="store-card__icon store-card__icon--metro"></span>
+                                    <span class="store-card__metro-text">Варшавская</span>
+                                </div>
+                                <div class="store-card__address">
+                                    <address class="store-card__address-text">
+                                        г. Москва, Варшавское шоссе, 87Б, 1 этаж
+                                    </address>
+                                    <button class="store-card__copy-btn" aria-label="Скопировать адрес"
+                                        data-copy-text="г. Москва, Варшавское шоссе, 87Б, 1 этаж">
+                                        <span class="store-card__icon store-card__icon--copy"></span>
+                                    </button>
+                                    <span class="tooltip">Скопировать адрес</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="store-card__map-block">
+                            <button class="store-card__map-btn"
+                                onclick="window.open('https://yandex.ru/maps/-/CHCtu-lj', '_blank')">
+                                <span>Проложить маршрут</span>
+                                <span class="store-card__icon store-card__btn-icon"></span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="store-card" data-location="southeast">
+                        <div class="store-card__main">
+                            <h3 class="store-card__title">ТЦ Феникс</h3>
+                            <div class="store-card__address-item">
+                                <span class="store-card__mode">Ежедневно с 10:00 до 22:00</span>
+                                <div class="store-card__address-metro">
+                                    <span class="store-card__icon store-card__icon--metro"></span>
+                                    <span class="store-card__metro-text">Лермонтовский проспект</span>
+                                </div>
+                                <div class="store-card__address">
+                                    <address class="store-card__address-text">
+                                        г. Москва, Лермонтовский проспект, 19к1, 1 этаж
+                                    </address>
+                                    <button class="store-card__copy-btn" aria-label="Скопировать адрес"
+                                        data-copy-text="г. Москва, Лермонтовский проспект, 19к1, 1 этаж">
+                                        <span class="store-card__icon store-card__icon--copy"></span>
+                                    </button>
+                                    <span class="tooltip">Скопировать адрес</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="store-card__map-block">
+                            <button class="store-card__map-btn"
+                                onclick="window.open('https://yandex.ru/maps/-/CHCtyQjG', '_blank')">
+                                <span>Проложить маршрут</span>
+                                <span class="store-card__icon store-card__btn-icon"></span>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="photo-ideas" class="photo-ideas">
+            <div class="wrapper">
+                <div class="photo-ideas__header">
+                    <h2 class="photo-ideas__title">Фотоидеи, которые вдохновляют</h2>
+                </div>
+                <div class="carousel">
+                    <div class="carousel__track">
+                        <div class="carousel__slide prev">
+                            <img src="" class="carousel__image" alt="Предыдущее фото" />
+                        </div>
+                        <div class="carousel__slide active">
+                            <img src="" class="carousel__image" alt="Текущее фото" />
+                        </div>
+                        <div class="carousel__slide next">
+                            <img src="" class="carousel__image" alt="Следующее фото" />
+                        </div>
+                    </div>
+                    <div class="carousel__progress">
+                        <div class="progress-bar active"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="telegram-promo" class="telegram-promo">
+            <div class="telegram-promo__content wrapper">
+                <h2 class="telegram-promo__title">Больше в нашем телеграм — канале</h2>
+                <button class="telegram-promo__button telegram-link">Подробнее</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__main">
+                <div class="footer__left">
+                    <nav class="footer-menu">
+                        <ul class="footer-menu__list">
+                            <li class="footer-menu__item">
+                                <a href="#about-brand" class="footer-menu__link">
+                                    <span>О бренде</span>
+                                    <span class="footer-menu__icon footer-menu__icon--arrow-outward"></span>
+                                </a>
+                            </li>
+                            <li class="footer-menu__item">
+                                <a href="#catalog" class="footer-menu__link">
+                                    <span>Коллекция</span>
+                                    <span class="footer-menu__icon footer-menu__icon--arrow-outward"></span>
+                                </a>
+                            </li>
+                            <li class="footer-menu__item">
+                                <a href="#stores" class="footer-menu__link">
+                                    <span>Магазины</span>
+                                    <span class="footer-menu__icon footer-menu__icon--arrow-outward"></span>
+                                </a>
+                            </li>
+                            <li class="footer-menu__item">
+                                <a href="#photo-ideas" class="footer-menu__link">
+                                    <span>Фотоидеи</span>
+                                    <span class="footer-menu__icon footer-menu__icon--arrow-outward"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__right">
+                    <button class="to-top-btn" aria-label="Наверх">
+                        <span class="footer__icon footer__icon--double-arrow-up"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="copyright">
+                    <span class="copyright__text">2000 — 2025 / Сеть магазинов женской одежды DJU.L</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
